@@ -21,3 +21,30 @@ div {
 	border-radius: 10px;
 	padding: 15px;
 }
+
+input {
+	outline: 0;
+	padding: 10px;
+	border-radius: 10px;
+	border: 1px solid gainsboro;
+}
+
+input:focus {
+	border: 1px solid gray;
+}
+
+button {
+	outline: 0;
+	border: 0;
+	padding: 5px 15px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+button:active {
+	transform: scale(0.95);
+}
+
+button:hover {
+	background-color: rgb(218, 217, 217);
+}
